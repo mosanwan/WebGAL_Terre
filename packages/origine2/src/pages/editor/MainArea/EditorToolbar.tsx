@@ -64,5 +64,9 @@ export default function EditorToolbar() {
       <ListView theme="outline" size="20" fill={isCodeMode ? "#333" : '#005CAF'} strokeWidth={3}/>
       {t`图形编辑器`}
     </div>
+    <div onClick={handleSetGraphMode} className={s.toolbar_button + ' ' + (!isCodeMode ? s.toolbar_button_active : '')}>
+      <ListView theme="outline" size="20" fill={isCodeMode ? "#333" : '#005CAF'} strokeWidth={3}/>
+      {`节点编辑器`}
+    </div>
   </div>;
 }
