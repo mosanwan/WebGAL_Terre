@@ -1628,6 +1628,10 @@ msgstr "自定义特效名称"
 msgid "舞台对象控制"
 msgstr "舞台对象控制"
 
+#: src/pages/editor/MainArea/EditorToolbar.tsx:69
+msgid "节点编辑器"
+msgstr "节点编辑器"
+
 #: src/pages/dashboard/About.tsx:48
 #: src/pages/dashboard/DashBoard.tsx:166
 msgid "获取最新版本"

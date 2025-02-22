@@ -1608,6 +1608,10 @@ msgstr "Custom effect name"
 msgid "舞台对象控制"
 msgstr "Stage object control"
 
+#: src/pages/editor/MainArea/EditorToolbar.tsx:69
+msgid "节点编辑器"
+msgstr "NodeEditor"
+
 #: src/pages/dashboard/About.tsx:48
 #: src/pages/dashboard/DashBoard.tsx:166
 msgid "获取最新版本"
