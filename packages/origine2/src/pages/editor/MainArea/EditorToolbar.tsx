@@ -25,6 +25,7 @@ export default function EditorToolbar() {
 
   const handleSetCodeMode = () => updateIsCodeMode(true);
   const handleSetGraphMode = () => updateIsCodeMode(false);
+  const handleSetNodeMode=function(){console.log("Node Mode")};
 
   useEffect(() => {
     const handleUpdagteScene = (scene:string)=>{
@@ -64,7 +65,7 @@ export default function EditorToolbar() {
       <ListView theme="outline" size="20" fill={isCodeMode ? "#333" : '#005CAF'} strokeWidth={3}/>
       {t`图形编辑器`}
     </div>
-    <div onClick={handleSetGraphMode} className={s.toolbar_button + ' ' + (!isCodeMode ? s.toolbar_button_active : '')}>
+    <div onClick={handleSetNodeMode} className={s.toolbar_button + ' '}>
       <ListView theme="outline" size="20" fill={isCodeMode ? "#333" : '#005CAF'} strokeWidth={3}/>
       {t`节点编辑器`}
     </div>

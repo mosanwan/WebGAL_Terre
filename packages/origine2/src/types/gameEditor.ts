@@ -14,6 +14,7 @@ export interface IGameEditorState {
   isShowSidebar: boolean,
   isCodeMode: boolean,
   isShowDebugger: boolean,
+  ModeName:string
 }
 
 export interface IGameEditorAction {
@@ -26,4 +27,5 @@ export interface IGameEditorAction {
   updateIsShowSidebar: (isShowSidebar: IGameEditorState['isShowSidebar']) => void,
   updateIsCodeMode: (isCodeMode: IGameEditorState['isCodeMode']) => void,
   updateIsShowDebugger: (isShowDebugger: IGameEditorState['isShowDebugger']) => void,
+  updateEdiorModeName:(ModeName:IGameEditorState['ModeName'])=>void,
 }
