@@ -12,6 +12,7 @@ const initState: IGameEditorState = {
   isCodeMode: false,
   isShowDebugger: false,
   EditorMode:"Node",
+  ModeName:"Node"
 };
 
 export const createGameEditorStore = (gameName: string) =>
@@ -29,6 +30,7 @@ export const createGameEditorStore = (gameName: string) =>
         updateIsCodeMode: (isCodeMode) => set({ isCodeMode }),
         updateIsShowDebugger: (isShowDebugger) => set({ isShowDebugger }),
         updateEditorMode: (mode) => set({ EditorMode: mode }),
+        updateEdiorModeName: (modeName) => set({ ModeName: modeName }),
       }),
       {
         name: `game-editor-storage-${gameName}`,
