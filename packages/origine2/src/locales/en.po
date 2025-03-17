@@ -221,7 +221,7 @@ msgstr "Hide the role name"
 msgid "两端对齐"
 msgstr "Align on both sides"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:70
+#: src/pages/editor/MainArea/EditorToolbar.tsx:72
 msgid "个字"
 msgstr " Words"
 
@@ -599,7 +599,7 @@ msgstr "Lip sync and blinking"
 msgid "图像"
 msgstr "Image"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:79
+#: src/pages/editor/MainArea/EditorToolbar.tsx:81
 msgid "图形编辑器"
 msgstr "Graphical editor"
 
@@ -1403,7 +1403,7 @@ msgstr "Special performance"
 msgid "百分比。 0-100 有效"
 msgstr "Percentage. 0-100 valid"
 
-#: src/pages/editor/MainArea/EditArea.tsx:45
+#: src/pages/editor/MainArea/EditArea.tsx:56
 msgid "目前没有打开任何文件"
 msgstr "No file currently open"
 
@@ -1570,7 +1570,7 @@ msgstr "Background music file"
 msgid "背景颜色"
 msgstr "Background color"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:75
+#: src/pages/editor/MainArea/EditorToolbar.tsx:77
 msgid "脚本编辑器"
 msgstr "Script editor"
 
@@ -1608,7 +1608,7 @@ msgstr "Custom effect name"
 msgid "舞台对象控制"
 msgstr "Stage object control"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:83
+#: src/pages/editor/MainArea/EditorToolbar.tsx:85
 msgid "节点编辑器"
 msgstr "NodeEditor"
 
@@ -1625,7 +1625,7 @@ msgstr "Get character input from user"
 msgid "获取输入"
 msgstr "Get input"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:70
+#: src/pages/editor/MainArea/EditorToolbar.tsx:72
 msgid "行脚本"
 msgstr "Line of script"
 
@@ -1715,7 +1715,7 @@ msgstr "Set transition effect"
 msgid "该指令没有被识别，请打开脚本编辑模式以手动编辑"
 msgstr "This command is not recognized, please open script editing mode to edit manually"
 
-#: src/pages/editor/MainArea/EditArea.tsx:31
+#: src/pages/editor/MainArea/EditArea.tsx:42
 msgid "该文件类型不支持预览"
 msgstr "This file type does not support preview"
 

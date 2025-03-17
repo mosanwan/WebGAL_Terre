@@ -221,7 +221,7 @@ msgstr "キャラクター名は設定不可"
 msgid "两端对齐"
 msgstr "両端揃え"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:70
+#: src/pages/editor/MainArea/EditorToolbar.tsx:72
 msgid "个字"
 msgstr " ワード"
 
@@ -599,7 +599,7 @@ msgstr "口パクとまばたき"
 msgid "图像"
 msgstr "画像"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:79
+#: src/pages/editor/MainArea/EditorToolbar.tsx:81
 msgid "图形编辑器"
 msgstr "グラフィックエディタ"
 
@@ -1403,7 +1403,7 @@ msgstr "特別演出"
 msgid "百分比。 0-100 有效"
 msgstr "百分率。 0-100 有効"
 
-#: src/pages/editor/MainArea/EditArea.tsx:45
+#: src/pages/editor/MainArea/EditArea.tsx:56
 msgid "目前没有打开任何文件"
 msgstr "現在開いているファイルはありません"
 
@@ -1570,7 +1570,7 @@ msgstr "BGMファイル"
 msgid "背景颜色"
 msgstr "背景色"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:75
+#: src/pages/editor/MainArea/EditorToolbar.tsx:77
 msgid "脚本编辑器"
 msgstr "スクリプトエディタ"
 
@@ -1608,7 +1608,7 @@ msgstr "カスタムの特殊効果名"
 msgid "舞台对象控制"
 msgstr "ステージオブジェクトコントロール"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:83
+#: src/pages/editor/MainArea/EditorToolbar.tsx:85
 msgid "节点编辑器"
 msgstr "节点编辑器"
 
@@ -1625,7 +1625,7 @@ msgstr "ユーザーからの文字入力を取得"
 msgid "获取输入"
 msgstr "入力を取得"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:70
+#: src/pages/editor/MainArea/EditorToolbar.tsx:72
 msgid "行脚本"
 msgstr " スクリプトの行、"
 
@@ -1715,7 +1715,7 @@ msgstr "トランジション効果を使う"
 msgid "该指令没有被识别，请打开脚本编辑模式以手动编辑"
 msgstr "このコマンドは認識されません、スクリプト編集モードで編集してくださいHere are the translations for the remaining strings:"
 
-#: src/pages/editor/MainArea/EditArea.tsx:31
+#: src/pages/editor/MainArea/EditArea.tsx:42
 msgid "该文件类型不支持预览"
 msgstr "このファイルタイプはプレビューをサポートしていません"
 
