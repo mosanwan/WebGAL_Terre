@@ -221,7 +221,7 @@ msgstr "キャラクター名は設定不可"
 msgid "两端对齐"
 msgstr "両端揃え"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:57
+#: src/pages/editor/MainArea/EditorToolbar.tsx:70
 msgid "个字"
 msgstr " ワード"
 
@@ -599,7 +599,7 @@ msgstr "口パクとまばたき"
 msgid "图像"
 msgstr "画像"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:66
+#: src/pages/editor/MainArea/EditorToolbar.tsx:79
 msgid "图形编辑器"
 msgstr "グラフィックエディタ"
 
@@ -1570,7 +1570,7 @@ msgstr "BGMファイル"
 msgid "背景颜色"
 msgstr "背景色"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:62
+#: src/pages/editor/MainArea/EditorToolbar.tsx:75
 msgid "脚本编辑器"
 msgstr "スクリプトエディタ"
 
@@ -1608,7 +1608,7 @@ msgstr "カスタムの特殊効果名"
 msgid "舞台对象控制"
 msgstr "ステージオブジェクトコントロール"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:70
+#: src/pages/editor/MainArea/EditorToolbar.tsx:83
 msgid "节点编辑器"
 msgstr "节点编辑器"
 
@@ -1625,7 +1625,7 @@ msgstr "ユーザーからの文字入力を取得"
 msgid "获取输入"
 msgstr "入力を取得"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:57
+#: src/pages/editor/MainArea/EditorToolbar.tsx:70
 msgid "行脚本"
 msgstr " スクリプトの行、"
 

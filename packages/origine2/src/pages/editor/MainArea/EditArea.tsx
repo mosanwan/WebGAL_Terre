@@ -13,6 +13,7 @@ export default function EditArea() {
   const tags = useGameEditorContext((state) => state.tags);
   const isCodeMode = useGameEditorContext((state) => state.isCodeMode);
   const isShowDebugger = useGameEditorContext((state) => state.isShowDebugger);
+  const EditorMode = useGameEditorContext((state)=> state.EditorMode);
 
   // 生成每个 Tag 对应的编辑器主体
 
@@ -21,10 +22,19 @@ export default function EditArea() {
 
   const getTagPage = (tag: ITag) => {
     if (tag.type === "scene") {
-      if (isCodeMode)
-        return <TextEditor isHide={tag.path !== currentTag?.path} key={tag.path}
-          targetPath={tag.path}/>;
-      else return <GraphicalEditor key={tag.path} targetPath={tag.path} targetName={tag.name}/>;
+      // if (isCodeMode)
+      //   return <TextEditor isHide={tag.path !== currentTag?.path} key={tag.path}
+      //     targetPath={tag.path}/>;
+      // else return <GraphicalEditor key={tag.path} targetPath={tag.path} targetName={tag.name}/>;
+      if(EditorMode==="Code"){
+        return <TextEditor isHide={tag.path !== currentTag?.path} key={tag.path} targetPath={tag.path}/>;
+      }
+      if(EditorMode==="Graph"){
+        return <GraphicalEditor key={tag.path} targetPath={tag.path} targetName={tag.name}/>;
+      }
+      if(EditorMode==="Node"){
+        return <h1>NodeMode</h1>;
+      }
     } else {
       const fileType = getFileType(tag.name);
       if (!fileType) {

@@ -237,7 +237,7 @@ msgstr "不显示角色名"
 msgid "两端对齐"
 msgstr "两端对齐"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:57
+#: src/pages/editor/MainArea/EditorToolbar.tsx:70
 msgid "个字"
 msgstr "个字"
 
@@ -619,7 +619,7 @@ msgstr "唇形同步与眨眼"
 msgid "图像"
 msgstr "图像"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:66
+#: src/pages/editor/MainArea/EditorToolbar.tsx:79
 msgid "图形编辑器"
 msgstr "图形编辑器"
 
@@ -1590,7 +1590,7 @@ msgstr "背景音乐文件"
 msgid "背景颜色"
 msgstr "背景颜色"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:62
+#: src/pages/editor/MainArea/EditorToolbar.tsx:75
 msgid "脚本编辑器"
 msgstr "脚本编辑器"
 
@@ -1628,7 +1628,7 @@ msgstr "自定义特效名称"
 msgid "舞台对象控制"
 msgstr "舞台对象控制"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:70
+#: src/pages/editor/MainArea/EditorToolbar.tsx:83
 msgid "节点编辑器"
 msgstr "节点编辑器"
 
@@ -1645,7 +1645,7 @@ msgstr "获取来自用户的字符输入"
 msgid "获取输入"
 msgstr "获取输入"
 
-#: src/pages/editor/MainArea/EditorToolbar.tsx:57
+#: src/pages/editor/MainArea/EditorToolbar.tsx:70
 msgid "行脚本"
 msgstr "行脚本"
 

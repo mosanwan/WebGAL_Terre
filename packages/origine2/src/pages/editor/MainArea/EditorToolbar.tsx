@@ -10,9 +10,11 @@ export default function EditorToolbar() {
   const isShowDebugger = useGameEditorContext((state)=> state.isShowDebugger);
   const updateIsCodeMode = useGameEditorContext((state)=> state.updateIsCodeMode);
   const updateIsShowDebugger = useGameEditorContext((state) => state.updateIsShowDebugger);
-
+  const updateEditorMode = useGameEditorContext((state)=> state.updateEditorMode);
+  // const [currentMode,setCurrentMode] = useState("Node");
   const [textNum,setTextNum] = useState(0);
   const [lineNum,setLineNum] = useState(0);
+  const EditorMode = useGameEditorContext((state)=>state.EditorMode);
 
   // 函数用于格式化数字，添加千分位分隔符
   function formatNumberWithCommas(num:number) {
@@ -23,11 +25,24 @@ export default function EditorToolbar() {
   const textNumString = formatNumberWithCommas(textNum);
   const lineNumString = formatNumberWithCommas(lineNum);
 
-  const handleSetCodeMode = () => updateIsCodeMode(true);
-  const handleSetGraphMode = () => updateIsCodeMode(false);
-  const handleSetNodeMode=function(){console.log("Node Mode")};
+  const handleSetCodeMode = () => {
+
+    console.log("handleSetCodeMode");
+    updateIsCodeMode(true);
+    updateEditorMode("Code");
+  };
+  const handleSetGraphMode = () => {
+    updateIsCodeMode(false);
+    console.log("handleSetGraphMode");
+    updateEditorMode("Graph");
+  };
+  const handleSetNodeMode = () => {
+    console.log("handleSetNodeMode");
+    updateEditorMode("Node");
+  };
 
   useEffect(() => {
+    console.log("当前EditorMode = "+EditorMode);
     const handleUpdagteScene = (scene:string)=>{
       const wordsAndChars = scene.match(/[\w]+|[^\s\w]/g) || [];
       setTextNum(wordsAndChars.length);
@@ -56,17 +71,17 @@ export default function EditorToolbar() {
       <DataSheet theme="outline" size="20" fill="#333" strokeWidth={3}/>
       {lineNumString} {t`行脚本`}, {textNumString} {t`个字`}
     </div>
-    <div onClick={handleSetCodeMode} className={s.toolbar_button + ' ' + (isCodeMode ? s.toolbar_button_active : '')}
+    <div onClick={handleSetCodeMode} className={s.toolbar_button + ' ' + (EditorMode==="Code" ? s.toolbar_button_active : '')}
       style={{marginLeft: 'auto'}}>
-      <FileCodeOne theme="outline" size="20" fill={isCodeMode ? '#005CAF' : "#333"} strokeWidth={3}/>
+      <FileCodeOne theme="outline" size="20" fill={EditorMode==="Code" ? '#005CAF' : "#333"} strokeWidth={3}/>
       {t`脚本编辑器`}
     </div>
-    <div onClick={handleSetGraphMode} className={s.toolbar_button + ' ' + (!isCodeMode ? s.toolbar_button_active : '')}>
-      <ListView theme="outline" size="20" fill={isCodeMode ? "#333" : '#005CAF'} strokeWidth={3}/>
+    <div onClick={handleSetGraphMode} className={s.toolbar_button + ' ' + (EditorMode==="Graph" ? s.toolbar_button_active : '')}>
+      <ListView theme="outline" size="20" fill={EditorMode==="Graph" ? '#005CAF':"#333" } strokeWidth={3}/>
       {t`图形编辑器`}
     </div>
-    <div onClick={handleSetNodeMode} className={s.toolbar_button + ' '}>
-      <ListView theme="outline" size="20" fill={isCodeMode ? "#333" : '#005CAF'} strokeWidth={3}/>
+    <div onClick={handleSetNodeMode} className={s.toolbar_button + ' ' + (EditorMode==="Node" ? s.toolbar_button_active : '')}>
+      <ListView theme="outline" size="20" fill={EditorMode==="Node" ? '#005CAF' : "#333"} strokeWidth={3}/>
       {t`节点编辑器`}
     </div>
   </div>;
