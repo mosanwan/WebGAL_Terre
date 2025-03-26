@@ -7,8 +7,8 @@ import EditorDebugger from "@/pages/editor/MainArea/EditorDebugger/EditorDebugge
 import { useGameEditorContext } from "@/store/useGameEditorStore";
 import { ITag } from "@/types/gameEditor";
 import { t } from "@lingui/macro";
-import NodeEditor from "@/pages/editor/NodeEditor/NodeEditor";
-
+// import NodeEditor from "@/pages/editor/NodeEditor/NodeEditor";
+import NodeEditorJsx from "@/pages/editor/NodeEditor/NodeEditor";
 export default function EditArea() {
   const currentTag = useGameEditorContext((state) => state.currentTag);
   const tags = useGameEditorContext((state) => state.tags);
@@ -34,7 +34,7 @@ export default function EditArea() {
         return <GraphicalEditor key={tag.path} targetPath={tag.path} targetName={tag.name}/>;
       }
       if(EditorMode==="Node"){
-        return <NodeEditor key={tag.path} targetPath={tag.path} targetName={tag.name}/>;
+        return <NodeEditorJsx key={tag.path} targetPath={tag.path} targetName={tag.name}/>;
       }
     } else {
       const fileType = getFileType(tag.name);
