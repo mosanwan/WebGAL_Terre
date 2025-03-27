@@ -14,7 +14,7 @@ export default function MiniAvatar(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="isNoDialog" title={t`关闭小头像`}>
         <TerreToggle title="" onChange={(newValue) => {
           if(!newValue){

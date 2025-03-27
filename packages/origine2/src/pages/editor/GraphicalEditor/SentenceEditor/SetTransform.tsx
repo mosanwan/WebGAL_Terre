@@ -38,7 +38,7 @@ export default function SetTransform(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions title={t`效果编辑`}>
         <Button onClick={() => updateExpand(props.index)}>
           {t`打开效果编辑器`}

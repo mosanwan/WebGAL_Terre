@@ -6,7 +6,7 @@ export default memo(({data})=>{
   return(
     <div className="IntroContainer">
       <h2>效果声音</h2>
-      <OrgComponent sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
+      <OrgComponent VerticalMode={true} sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
       <Handle type="target"
         position={Position.Left}
         onConnect={(params) => console.log('handle onConnect', params)}

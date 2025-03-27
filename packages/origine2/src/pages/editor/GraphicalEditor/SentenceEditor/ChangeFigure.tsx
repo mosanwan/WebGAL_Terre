@@ -141,7 +141,7 @@ export default function ChangeFigure(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="isNoDialog" title={t`关闭立绘`}>
         <TerreToggle title="" onChange={(newValue) => {
           if (!newValue) {

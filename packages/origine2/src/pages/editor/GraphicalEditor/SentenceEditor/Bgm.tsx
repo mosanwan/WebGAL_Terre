@@ -25,7 +25,7 @@ export default function Bgm(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="isNoDialog" title={t`停止 BGM`}>
         <TerreToggle title="" onChange={(newValue) => {
           if(!newValue){

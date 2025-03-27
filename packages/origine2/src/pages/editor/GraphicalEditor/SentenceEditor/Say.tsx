@@ -126,7 +126,7 @@ export default function Say(props: ISentenceEditorProps) {
       currentValue.set(newList);
       submit();
     }}>{t`添加新行`}</Button>}
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="isNoDialog" title={t`旁白模式`}>
         <TerreToggle title="" onChange={(newValue) => {
           isNoSpeaker.set(newValue);

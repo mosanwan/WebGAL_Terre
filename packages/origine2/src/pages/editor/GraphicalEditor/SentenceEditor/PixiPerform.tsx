@@ -29,7 +29,7 @@ export default function PixiPerform(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions title={t`清除特效`} key="1">
         <TerreToggle title="" onChange={(newValue) => {
           isSetEffectsOff.set(newValue);

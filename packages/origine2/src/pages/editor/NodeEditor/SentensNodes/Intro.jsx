@@ -9,7 +9,7 @@ export default memo(({data})=>{
   return(
     <div className="IntroContainer">
       <h2>全屏文字</h2>
-      <Intro sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
+      <Intro VerticalMode={true} sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
       <Handle type="target"
         position={Position.Left}
         onConnect={(params) => console.log('handle onConnect', params)}

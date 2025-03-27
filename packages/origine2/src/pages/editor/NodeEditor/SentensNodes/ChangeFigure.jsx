@@ -1,11 +1,11 @@
 import React, {memo} from "react";
 import Intro from "@/pages/editor/GraphicalEditor/SentenceEditor/Intro";
 import {Handle, Position} from "@xyflow/react";
-import OrgComponent from "@/pages/editor/GraphicalEditor/SentenceEditor/MiniAvatar";
+import OrgComponent from "@/pages/editor/GraphicalEditor/SentenceEditor/ChangeFigure";
 export default memo(({data})=>{
   return(
     <div className="IntroContainer">
-      <h2>角落头像</h2>
+      <h2>切换立绘</h2>
       <OrgComponent VerticalMode={true} sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
       <Handle type="target"
         position={Position.Left}

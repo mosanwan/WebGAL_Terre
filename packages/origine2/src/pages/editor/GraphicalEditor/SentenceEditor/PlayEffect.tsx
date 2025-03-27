@@ -19,7 +19,7 @@ export default function PlayEffect(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="isNoDialog" title={t`关闭效果音`}>
         <TerreToggle title="" onChange={(newValue) => {
           if (!newValue) {
@@ -51,7 +51,7 @@ export default function PlayEffect(props: ISentenceEditorProps) {
           style={{ width: "100%" }}
         />
       </CommonOptions>
-      <CommonOptions title={t`效果音 ID（输入以使效果音循环，后面再用这个 id 来关闭）`} key="3">
+      <CommonOptions title={t`效果音 ID`} key="3">
         <input value={id.value}
           onChange={(ev) => {
             const newValue = ev.target.value;

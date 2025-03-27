@@ -31,7 +31,7 @@ export default function SetAnimation(props: ISentenceEditorProps) {
   return <div className={styles.sentenceEditorContent}>
     <CommonTips text={t`提示：先设置立绘/背景，再应用动画，否则找不到目标。`} />
     {/* <CommonTips text={t`选择一个动画文件以应用，其中 animationTable 是动画定义，不要选择。`} /> */}
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="1" title={t`选择动画`}>
         <>
           {fileName.value}{"\u00a0"}

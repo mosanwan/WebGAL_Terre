@@ -215,7 +215,7 @@ export default function GraphicalEditor(props: IGraphicalEditorProps) {
                               </div>
                             </div>
                           </div>
-                          {showSentence.value[i] && <SentenceEditor sentence={sentence} index={index} onSubmit={(newSentence) => {
+                          {showSentence.value[i] && <SentenceEditor VerticalMode={false} sentence={sentence} index={index} onSubmit={(newSentence) => {
                             updateSentenceByIndex(newSentence, i);
                           }}/>}
                         </div>

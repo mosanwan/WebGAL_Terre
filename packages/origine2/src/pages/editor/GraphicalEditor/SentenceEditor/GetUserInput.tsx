@@ -17,7 +17,7 @@ export default function GetUserInput(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions title={t`写入变量`} key="1">
         <input value={varKey.value}
           onChange={(ev) => {

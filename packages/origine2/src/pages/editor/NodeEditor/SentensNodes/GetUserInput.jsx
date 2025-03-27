@@ -6,7 +6,7 @@ export default memo(({data})=>{
   return(
     <div className="IntroContainer">
       <h2>获取输入</h2>
-      <GetUserInput sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
+      <GetUserInput VerticalMode={true} sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
       <Handle type="target"
         position={Position.Left}
         onConnect={(params) => console.log('handle onConnect', params)}

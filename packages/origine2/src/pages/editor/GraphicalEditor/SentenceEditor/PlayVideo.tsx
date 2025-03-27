@@ -19,7 +19,7 @@ export default function PlayVideo(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="1" title={t`视频文件`}>
         <>
           {fileName.value + "\u00a0\u00a0"}

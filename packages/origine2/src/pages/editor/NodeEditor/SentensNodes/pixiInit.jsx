@@ -6,7 +6,7 @@ export default memo(({data})=>{
   return(
     <div className="IntroContainer">
       <h2>清除特效</h2>
-      <Pixi sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
+      <Pixi VerticalMode={true} sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
       <Handle type="target"
         position={Position.Left}
         onConnect={(params) => console.log('handle onConnect', params)}

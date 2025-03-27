@@ -12,7 +12,7 @@ export default function SetTextbox(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="isNoDialog" title={t`隐藏文本框`}>
         <TerreToggle title="" onChange={(newValue) => {
           isHideTextbox.set(newValue);

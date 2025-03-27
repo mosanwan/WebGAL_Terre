@@ -33,7 +33,7 @@ export default function ChangeBg(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="isNoDialog" title={t`关闭背景`}>
         <TerreToggle title="" onChange={(newValue) => {
           if (!newValue) {

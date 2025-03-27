@@ -15,7 +15,7 @@ export default function ChangeCallScene(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="1" title={t`场景文件`}>
         <>
           {fileName.value}{'\u00a0'}

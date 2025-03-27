@@ -27,7 +27,7 @@ export default function SetTransition(props: ISentenceEditorProps) {
     props.onSubmit(`setTransition: -target=${target.value} -enter=${enterFileName.value} -exit=${exitFileName.value};`);
   };
   return <div className={styles.sentenceEditorContent}>
-    <div className={styles.editItem}>
+    <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="1" title={t`选择进入动画`}>
         <>
           {enterFileName.value}{"\u00a0"}
