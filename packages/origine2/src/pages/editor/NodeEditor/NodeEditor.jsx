@@ -1,5 +1,5 @@
 import styles from "@/pages/editor/NodeEditor/NodeEditor.module.scss";
-import {Background, Controls, Position, ReactFlow} from "@xyflow/react";
+import {Background, Controls, Position, ReactFlow,ReactFlowProvider} from "@xyflow/react";
 import '@xyflow/react/dist/style.css';
 import {useCallback, useEffect, useRef, useState} from "react";
 import axios from "axios";
@@ -7,34 +7,37 @@ import {useValue} from "@/hooks/useValue";
 import {eventBus} from "@/utils/eventBus";
 import {mergeToString, splitToArray} from "@/pages/editor/GraphicalEditor/utils/sceneTextProcessor";
 import {parseScene} from "@/pages/editor/GraphicalEditor/parser";
-import {addEdge, applyEdgeChanges, applyNodeChanges} from "reactflow";
-import ContextMenu from "@/pages/editor/NodeEditor/SentensNodes/ContextMenu";
-import IntroNode from "@/pages/editor/NodeEditor/SentensNodes/Intro";
-import PixiPerform from "@/pages/editor/NodeEditor/SentensNodes/pixiPerform";
-import PixiInit from "@/pages/editor/NodeEditor/SentensNodes/pixiInit";
+import {addEdge, applyEdgeChanges, applyNodeChanges, useReactFlow} from "reactflow";
+
+
 import {editorLineHolder} from "@/runtime/WG_ORIGINE_RUNTIME";
 import {api} from "@/api";
 import {WsUtil} from "@/utils/wsUtil";
 import useEditorStore from "@/store/useEditorStore";
-import MiniAvatar from "@/pages/editor/NodeEditor/SentensNodes/MiniAvatar";
-import PlayEffect from "@/pages/editor/NodeEditor/SentensNodes/PlayEffect";
-import GetUserInput from "@/pages/editor/NodeEditor/SentensNodes/GetUserInput";
-import SetAnimation from "@/pages/editor/NodeEditor/SentensNodes/SetAnimation";
-import SetTransition from "@/pages/editor/NodeEditor/SentensNodes/SetTransition";
-import SetTransform from "@/pages/editor/NodeEditor/SentensNodes/SetTransform";
-import CallScene from "@/pages/editor/NodeEditor/SentensNodes/CallScene";
-import ChangeScene from "@/pages/editor/NodeEditor/SentensNodes/ChangeScene";
-import Choose from "@/pages/editor/NodeEditor/SentensNodes/Choose";
-import UnlockBgm from "@/pages/editor/NodeEditor/SentensNodes/UnlockBgm";
-import UnlockCg from "@/pages/editor/NodeEditor/SentensNodes/UnlockCg";
-import SetTextbox from "@/pages/editor/NodeEditor/SentensNodes/SetTextbox";
-import End from "@/pages/editor/NodeEditor/SentensNodes/End";
-import PlayVideo from "@/pages/editor/NodeEditor/SentensNodes/PlayVideo";
-import Bgm from "@/pages/editor/NodeEditor/SentensNodes/Bgm";
-import ChangeFigure from "@/pages/editor/NodeEditor/SentensNodes/ChangeFigure";
-import ChangeBg from "@/pages/editor/NodeEditor/SentensNodes/ChangeBg";
-import Say from "@/pages/editor/NodeEditor/SentensNodes/Say";
-export default function NodeEditor(props) {
+
+// import ContextMenu from "@/pages/editor/NodeEditor/SentensNodes/ContextMenu";
+// import IntroNode from "@/pages/editor/NodeEditor/SentensNodes/Intro";
+// import PixiPerform from "@/pages/editor/NodeEditor/SentensNodes/pixiPerform";
+// import PixiInit from "@/pages/editor/NodeEditor/SentensNodes/pixiInit";
+// import MiniAvatar from "@/pages/editor/NodeEditor/SentensNodes/MiniAvatar";
+// import PlayEffect from "@/pages/editor/NodeEditor/SentensNodes/PlayEffect";
+// import GetUserInput from "@/pages/editor/NodeEditor/SentensNodes/GetUserInput";
+// import SetAnimation from "@/pages/editor/NodeEditor/SentensNodes/SetAnimation";
+// import SetTransition from "@/pages/editor/NodeEditor/SentensNodes/SetTransition";
+// import SetTransform from "@/pages/editor/NodeEditor/SentensNodes/SetTransform";
+// import CallScene from "@/pages/editor/NodeEditor/SentensNodes/CallScene";
+// import ChangeScene from "@/pages/editor/NodeEditor/SentensNodes/ChangeScene";
+// import Choose from "@/pages/editor/NodeEditor/SentensNodes/Choose";
+// import UnlockBgm from "@/pages/editor/NodeEditor/SentensNodes/UnlockBgm";
+// import UnlockCg from "@/pages/editor/NodeEditor/SentensNodes/UnlockCg";
+// import SetTextbox from "@/pages/editor/NodeEditor/SentensNodes/SetTextbox";
+// import End from "@/pages/editor/NodeEditor/SentensNodes/End";
+// import PlayVideo from "@/pages/editor/NodeEditor/SentensNodes/PlayVideo";
+// import Bgm from "@/pages/editor/NodeEditor/SentensNodes/Bgm";
+// import ChangeFigure from "@/pages/editor/NodeEditor/SentensNodes/ChangeFigure";
+// import ChangeBg from "@/pages/editor/NodeEditor/SentensNodes/ChangeBg";
+// import Say from "@/pages/editor/NodeEditor/SentensNodes/Say";
+function NodeEditor(props) {
   const gameName = useEditorStore.use.subPage();
   const sceneText = useValue("");
   const showSentence = useValue([]);
@@ -42,6 +45,7 @@ export default function NodeEditor(props) {
   const [edges,setEdges]  = useState([]);
   const [menu, setMenu] = useState(null);
   const ref = useRef(null);
+  const {getNode } = useReactFlow();
   const onNodeContextMenu = useCallback(
     (event, node) => {
       // Prevent native context menu from showing
@@ -76,27 +80,27 @@ export default function NodeEditor(props) {
   );
   const nodeTypes =
     {
-      intro:IntroNode,
-      pixiPerform:PixiPerform,
-      pixiInit:PixiInit,
-      playEffect:PlayEffect,
-      miniAvatar:MiniAvatar,
-      getUserInput:GetUserInput,
-      setAnimation:SetAnimation,
-      setTransition:SetTransition,
-      setTransform:SetTransform,
-      callScene:CallScene,
-      changeScene:ChangeScene,
-      choose:Choose,
-      unlockBgm:UnlockBgm,
-      unlockCg:UnlockCg,
-      end:End,
-      setTextbox:SetTextbox,
-      bgm:Bgm,
-      playVideo:PlayVideo,
-      changeFigure:ChangeFigure,
-      changeBg:ChangeBg,
-      say:Say
+      // intro:IntroNode,
+      // pixiPerform:PixiPerform,
+      // pixiInit:PixiInit,
+      // playEffect:PlayEffect,
+      // miniAvatar:MiniAvatar,
+      // getUserInput:GetUserInput,
+      // setAnimation:SetAnimation,
+      // setTransition:SetTransition,
+      // setTransform:SetTransform,
+      // callScene:CallScene,
+      // changeScene:ChangeScene,
+      // choose:Choose,
+      // unlockBgm:UnlockBgm,
+      // unlockCg:UnlockCg,
+      // end:End,
+      // setTextbox:SetTextbox,
+      // bgm:Bgm,
+      // playVideo:PlayVideo,
+      // changeFigure:ChangeFigure,
+      // changeBg:ChangeBg,
+      // say:Say
     };
   function updateScene() {
     const path = props.targetPath;
@@ -112,10 +116,12 @@ export default function NodeEditor(props) {
       //
       //   return {sentence:sentence};
       // });
+      let preNodeId = "";
       parsedScene.sentenceList.forEach((sentence,i) => {
         console.log("sentence : "+sentence);
+        const currentNodeId = "Node_"+String(i);
         const newNode = {
-          id: String(i),
+          id: currentNodeId,
           data: {
             sentence: sentence,
             label: sentence['commandRaw'],
@@ -133,7 +139,14 @@ export default function NodeEditor(props) {
           type: sentence["command"] ===0?"say":sentence['commandRaw']
         };
         setNodes((nds) => nds.concat(newNode));
-
+        // const c = getNode(currentNodeId);
+        // if (c) {
+        //   const dimensions = c.dimensions || {
+        //     width: c.width || 0,
+        //     height: c.height || 0
+        //   };
+        //   console.log('节点尺寸:', dimensions);
+        // }
       });
     });
   }
@@ -191,10 +204,10 @@ export default function NodeEditor(props) {
         onNodesChange={onNodesChange}
         edges={edges}
         onEdgesChange={onEdgesChange}
-        onNodeContextMenu={onNodeContextMenu}
+        // onNodeContextMenu={onNodeContextMenu}
         onPaneClick={onPaneClick}
         onConnect={onConnect}
-        nodeTypes={nodeTypes}
+        // nodeTypes={nodeTypes}
         fitView
       >
 
@@ -202,9 +215,18 @@ export default function NodeEditor(props) {
         {menu && <ContextMenu onClick={onPaneClick} {...menu} />}
         <Controls/>
       </ReactFlow>
+
     </div>
     // <div id="container" className={styles.NodeEditorWrapper}>
     //
     // </div>
   );
-};
+}
+
+export default function NodeEditorWithProvider(props){
+  return (
+    <ReactFlowProvider>
+      <NodeEditor {...props} />
+    </ReactFlowProvider>
+  );
+}

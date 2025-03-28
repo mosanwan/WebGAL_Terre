@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:221
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:222
 msgid ";注释"
 msgstr ";コメント"
 
@@ -42,11 +42,11 @@ msgstr "BGM"
 msgid "BGM 音量"
 msgstr "BGM 音量"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:109
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:110
 msgid "bgm:选择背景音乐;"
 msgstr "bgm: BGMを選択;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:149
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:150
 msgid "callScene:选择场景文件;"
 msgstr "callScene: シーンファイルを選択;"
 
@@ -54,19 +54,19 @@ msgstr "callScene: シーンファイルを選択;"
 msgid "CG"
 msgstr "CG"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:85
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:86
 msgid "changeBg: 选择背景图片;"
 msgstr "changeBg: 背景画像を選択;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:93
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:94
 msgid "changeFigure:选择立绘文件;"
 msgstr "changeFigure: 立ち絵ファイルを選択;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:157
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:158
 msgid "changeScene:选择场景文件;"
 msgstr "changeScene: シーンファイルを選択;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:165
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:166
 msgid "choose:选项:选择场景文件;"
 msgstr "choose: 選択肢を設定: シーンファイルを選択;"
 
@@ -78,11 +78,11 @@ msgstr "CSS プロパティ値"
 msgid "CSS 属性名："
 msgstr "CSS プロパティ名："
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:213
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:214
 msgid "end;"
 msgstr "end;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:245
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:246
 msgid "getUserInput:;"
 msgstr "getUserInput:;"
 
@@ -90,7 +90,7 @@ msgstr "getUserInput:;"
 msgid "Intro 文本"
 msgstr "Intro テキスト"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:141
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:142
 msgid "intro:;"
 msgstr "intro:;"
 
@@ -102,23 +102,23 @@ msgstr "Live2D モーション"
 msgid "Live2D 表情"
 msgstr "Live2D 表情"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:173
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:174
 msgid "miniAvatar:选择小头像;"
 msgstr "miniAvatar: アバターファイルを選択;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:133
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:134
 msgid "pixiInit;"
 msgstr "pixiInit;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:125
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:126
 msgid "pixiPerform:snow;"
 msgstr "pixiPerform:snow;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:181
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:182
 msgid "playEffect:选择效果音文件;"
 msgstr "playEffect: 効果音を選択;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:117
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:118
 msgid "playVideo:选择视频文件;"
 msgstr "playVideo: 動画を選択;"
 
@@ -126,27 +126,27 @@ msgstr "playVideo: 動画を選択;"
 msgid "RGB电影滤镜"
 msgstr "RGB映画"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:101
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:102
 msgid "setAnimation:选择动画文件;"
 msgstr "setAnimation: アニメーションを選択;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:205
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:206
 msgid "setTextbox:hide;"
 msgstr "setTextbox:hide;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:237
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:238
 msgid "setTransform: -duration=0;"
 msgstr "setTransform: -duration=0;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:229
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:230
 msgid "setTransition:;"
 msgstr "setTransition:;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:197
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:198
 msgid "unlockBgm:;"
 msgstr "unlockBgm:;"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:189
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:190
 msgid "unlockCg:;"
 msgstr "unlockCg:;"
 
@@ -240,15 +240,15 @@ msgstr "中央"
 msgid "中间立绘"
 msgstr "中央の立ち絵"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:128
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:129
 msgid "为当前的舞台添加特殊效果"
 msgstr "現在のステージに特殊効果を追加する"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:104
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:105
 msgid "为立绘或背景图片设置动画效果"
 msgstr "立ち絵や背景画像にアニメーションを指定する"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:240
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:241
 msgid "为立绘或背景图片设置效果"
 msgstr "立ち絵や背景画像のエフェクトを使う"
 
@@ -276,7 +276,7 @@ msgstr "使用中のテンプレート："
 msgid "使用引擎内置的特效"
 msgstr "デフォルトの特殊効果を使用"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:124
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:125
 #: src/pages/editor/GraphicalEditor/SentenceEditor/PixiPerform.tsx:40
 msgid "使用特效"
 msgstr "特殊効果を使う"
@@ -356,11 +356,11 @@ msgstr "ピクセル"
 msgid "光辉电影滤镜"
 msgstr "ゴッドレイ映画"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:140
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:141
 msgid "全屏文字"
 msgstr "全画面テキスト"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:144
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:145
 msgid "全屏显示一段文字，用于独白或引出场景"
 msgstr "全画面画面でテキストを表示する。独白やシーンの導入に使用"
 
@@ -430,15 +430,15 @@ msgstr "最新バージョン"
 msgid "写入变量"
 msgstr "変数を書く"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:164
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:165
 msgid "分支选择"
 msgstr "選択肢"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:160
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:161
 msgid "切换到另一个场景文件，并清除当前场景"
 msgstr "別のシーンファイルに切り替えて現在のシーンをクリアする"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:156
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:157
 msgid "切换场景"
 msgstr "シーンの切り替え"
 
@@ -446,15 +446,15 @@ msgstr "シーンの切り替え"
 msgid "切换场景，新场景直接替换父场景"
 msgstr "シーン切り替え後、新しいシーンを親シーンとして置き換え"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:92
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:93
 msgid "切换立绘"
 msgstr "立ち絵の切り替え"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:84
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:85
 msgid "切换背景"
 msgstr "背景の切り替え"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:88
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:89
 msgid "切换背景图片"
 msgstr "背景画像の切り替え"
 
@@ -534,7 +534,7 @@ msgstr "半分開いた口"
 msgid "单位毫秒。 0~ 有效"
 msgstr "ミリ秒単位。 0~ 有効"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:220
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:221
 msgid "单行注释"
 msgstr "一行コメント"
 
@@ -574,7 +574,7 @@ msgstr "右の立ち絵"
 msgid "右对齐"
 msgstr "右揃え"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:112
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:113
 msgid "启动、切换或停止背景音乐的播放"
 msgstr "BGMの再生を開始、切り替え、または停止する"
 
@@ -607,7 +607,7 @@ msgstr "グラフィックエディタ"
 msgid "圆角"
 msgstr "角丸"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:176
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:177
 msgid "在对话框的左下角显示一个小头像"
 msgstr "ダイアログの左下に小さなアバターを表示します"
 
@@ -899,7 +899,7 @@ msgstr "持続時間（ミリ秒）"
 msgid "指针"
 msgstr "ポインター"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:208
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:209
 msgid "控制是否要显示文本框"
 msgstr "テキストボックスの表示を制御する"
 
@@ -949,11 +949,11 @@ msgstr "ヒント：スタイルで使用されるリソースは assets ディ�
 #~ msgid "搜索文件"
 #~ msgstr "ファイル検索"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:120
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:121
 msgid "播放一小段视频"
 msgstr "動画ファイルを再生する"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:184
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:185
 msgid "播放一段效果音"
 msgstr "効果音を再生します"
 
@@ -961,7 +961,7 @@ msgstr "効果音を再生します"
 msgid "播放效果音"
 msgstr "効果音を再生"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:116
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:117
 msgid "播放视频"
 msgstr "動画の再生"
 
@@ -973,7 +973,7 @@ msgstr "グリッチ映画"
 msgid "效果"
 msgstr "エフェクト"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:180
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:181
 msgid "效果声音"
 msgstr "効果音"
 
@@ -997,13 +997,14 @@ msgstr "エフェクトエディタ"
 msgid "效果选项"
 msgstr "エフェクトオプション"
 
+#: src/pages/editor/GraphicalEditor/SentenceEditor/PlayEffect.tsx:54
 #: src/pages/editor/GraphicalEditor/SentenceEditor/PlayEffect.tsx:62
 msgid "效果音 ID"
 msgstr "効果音ID"
 
 #: src/pages/editor/GraphicalEditor/SentenceEditor/PlayEffect.tsx:54
-msgid "效果音 ID（输入以使效果音循环，后面再用这个 id 来关闭）"
-msgstr "効果音ID(効果音をループし、このIDを使用して後ほど停止可能)"
+#~ msgid "效果音 ID（输入以使效果音循环，后面再用这个 id 来关闭）"
+#~ msgstr "効果音ID(効果音をループし、このIDを使用して後ほど停止可能)"
 
 #: src/pages/editor/GraphicalEditor/SentenceEditor/PlayEffect.tsx:42
 msgid "效果音 音量"
@@ -1042,7 +1043,7 @@ msgstr "テキストの配置"
 msgid "文本展示后连续执行"
 msgstr "テキスト表示後連続実行"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:204
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:205
 msgid "文本显示"
 msgstr "テキストボックス"
 
@@ -1173,7 +1174,7 @@ msgstr "背景画像を表示"
 msgid "显示角色名"
 msgstr "キャラクター名を設定"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:76
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:77
 msgid "普通对话"
 msgstr "ダイアログ"
 
@@ -1181,7 +1182,7 @@ msgstr "ダイアログ"
 msgid "未指定"
 msgstr "指定なし"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:66
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:67
 msgid "未识别"
 msgstr "認識されないコマンド"
 
@@ -1296,19 +1297,19 @@ msgstr "フェードインとアウト"
 msgid "添加"
 msgstr "追加"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:80
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:81
 msgid "添加一句对话，可以附带语音"
 msgstr "セリフと同時にボイスの設定が可能です"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:192
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:193
 msgid "添加一张图片到 CG 鉴赏界面"
 msgstr "CG鑑賞に任意の画像を追加する"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:224
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:225
 msgid "添加一行注释"
 msgstr "コメントを追加します"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:200
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:201
 msgid "添加一首音乐到音乐鉴赏界面"
 msgstr "BGM鑑賞に任意のBGMを追加する"
 
@@ -1317,7 +1318,7 @@ msgstr "BGM鑑賞に任意のBGMを追加する"
 msgid "添加属性"
 msgstr "属性を追加"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:96
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:97
 msgid "添加或切换指定位置的立绘"
 msgstr "指定位置の立ち絵を追加または切り替える"
 
@@ -1336,11 +1337,11 @@ msgstr "カスタム属性を追加"
 msgid "添加语句"
 msgstr "ステートメントを追加"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:136
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:137
 msgid "清除当前舞台的特殊效果"
 msgstr "現在のステージの特殊効果をクリア"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:132
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:133
 #: src/pages/editor/GraphicalEditor/SentenceEditor/PixiPerform.tsx:33
 #: src/pages/editor/GraphicalEditor/SentenceEditor/PixiPerform.tsx:40
 msgid "清除特效"
@@ -1495,11 +1496,11 @@ msgstr "終了後保持"
 msgid "结束当前 BGM 的播放"
 msgstr "BGMを停止"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:216
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:217
 msgid "结束当前游戏并回到标题画面"
 msgstr "ゲームが終了され、タイトル画面に戻ります"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:212
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:213
 msgid "结束游戏"
 msgstr "ゲーム終了"
 
@@ -1558,7 +1559,7 @@ msgstr "背景画像"
 msgid "背景文件"
 msgstr "背景画像ファイル"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:108
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:109
 msgid "背景音乐"
 msgstr "BGM"
 
@@ -1617,11 +1618,11 @@ msgstr "节点编辑器"
 msgid "获取最新版本"
 msgstr "最新バージョンをダウンロード"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:248
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:249
 msgid "获取来自用户的字符输入"
 msgstr "ユーザーからの文字入力を取得"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:244
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:245
 msgid "获取输入"
 msgstr "入力を取得"
 
@@ -1641,7 +1642,7 @@ msgstr "カバレッジ"
 msgid "角色名，留空以继承上句"
 msgstr "キャラクター名を空白のままにすると前の文から継承"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:77
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:78
 msgid "角色名，留空以继承上句:对话;"
 msgstr "キャラクター名を空白のままにすると前の文から継承;ダイアログ;"
 
@@ -1665,7 +1666,7 @@ msgstr "キャラクター名テキストボックス"
 msgid "角色名文本框背景"
 msgstr "キャラクター名テキストボックスの背景"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:172
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:173
 msgid "角落头像"
 msgstr "コーナーアバター"
 
@@ -1695,19 +1696,19 @@ msgstr "タイプ"
 msgid "设置"
 msgstr "設定"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:100
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:101
 msgid "设置动画"
 msgstr "アニメーション"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:236
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:237
 msgid "设置效果"
 msgstr "エフェクトを使う"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:228
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:229
 msgid "设置转场"
 msgstr "トランジションを使う"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:232
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:233
 msgid "设置转场效果"
 msgstr "トランジション効果を使う"
 
@@ -1735,11 +1736,11 @@ msgstr "ボイス"
 msgid "调用/切换场景"
 msgstr "シーンの呼び出し/切り替え"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:152
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:153
 msgid "调用一段场景文件，在结束后返回父场景"
 msgstr "シーンファイルを呼び出し、終了後に親シーンに戻る"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:148
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:149
 msgid "调用场景"
 msgstr "シーンを呼び出す"
 
@@ -1864,7 +1865,7 @@ msgstr "オプションメニュー"
 msgid "透明度（0-1）："
 msgstr "透明度（０－１）："
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:168
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:169
 msgid "通过选项进入不同的场景"
 msgstr "選択肢からシーンに切り替えることが可能です"
 
@@ -1893,7 +1894,7 @@ msgstr "テンプレート名の変更"
 msgid "鉴赏"
 msgstr "鑑賞"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:188
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:189
 msgid "鉴赏图片"
 msgstr "CG鑑賞"
 
@@ -1901,7 +1902,7 @@ msgstr "CG鑑賞"
 msgid "鉴赏资源文件"
 msgstr "CG/BGMファイルを選択"
 
-#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:196
+#: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:197
 msgid "鉴赏音乐"
 msgstr "BGM鑑賞"
 

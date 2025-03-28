@@ -1,11 +1,11 @@
 import React, {memo} from "react";
-import {Handle, Position} from "@xyflow/react";
+import {Handle, Position, ReactFlowProvider} from "@xyflow/react";
 import '@xyflow/react/dist/style.css';
 import './Intro.scss';
 // import './Say.scss';
 import Intro from "@/pages/editor/GraphicalEditor/SentenceEditor/Intro";
 
-export default memo(({data})=>{
+export default function IntroNode({data}){
   return(
     <div className="IntroContainer">
       <h2>全屏文字</h2>
@@ -22,4 +22,4 @@ export default memo(({data})=>{
       />
     </div>
   );
-});
+};
