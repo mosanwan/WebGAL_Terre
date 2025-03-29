@@ -499,6 +499,7 @@ msgstr "创建新游戏"
 #: src/pages/dashboard/TemplateElement.tsx:133
 #: src/pages/editor/GraphicalEditor/SentenceEditor/Intro.tsx:196
 #: src/pages/editor/GraphicalEditor/SentenceEditor/Say.tsx:118
+#: src/pages/editor/NodeEditor/SentensNodes/MyNodeToolbar.jsx:10
 #: src/pages/templateEditor/TemplateGraphicalEditor/WebgalClassEditor/index.tsx:103
 msgid "删除"
 msgstr "删除"
@@ -593,6 +594,10 @@ msgstr "右侧立绘"
 #: src/pages/templateEditor/TemplateGraphicalEditor/WebgalClassEditor/propertyEditor/WGText.tsx:21
 msgid "右对齐"
 msgstr "右对齐"
+
+#: src/pages/editor/NodeEditor/SentensNodes/MyNodeToolbar.jsx:11
+msgid "向后插入"
+msgstr "向后插入"
 
 #: src/pages/editor/GraphicalEditor/SentenceEditor/index.tsx:113
 msgid "启动、切换或停止背景音乐的播放"
@@ -945,8 +950,8 @@ msgid "提示：先设置立绘/背景，再应用动画，否则找不到目标
 msgstr "提示：先设置立绘/背景，再应用动画，否则找不到目标。"
 
 #: src/pages/editor/GraphicalEditor/SentenceEditor/UnlockExtra.tsx:31
-msgid "提示：在编辑结束后，如果发现有失效的鉴赏 CG/BGM ，在 WebGAL 游戏界面的选项中选择清除全部数据以清空。"
-msgstr "提示：在编辑结束后，如果发现有失效的鉴赏 CG/BGM ，在 WebGAL 游戏界面的选项中选择清除全部数据以清空。"
+#~ msgid "提示：在编辑结束后，如果发现有失效的鉴赏 CG/BGM ，在 WebGAL 游戏界面的选项中选择清除全部数据以清空。"
+#~ msgstr "提示：在编辑结束后，如果发现有失效的鉴赏 CG/BGM ，在 WebGAL 游戏界面的选项中选择清除全部数据以清空。"
 
 #: src/pages/editor/GraphicalEditor/SentenceEditor/Say.tsx:86
 msgid "提示：换行符最多可达三行"

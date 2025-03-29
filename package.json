@@ -32,9 +32,5 @@
   },
   "engines": {
     "node": "18"
-  },
-  "dependencies": {
-    "@xyflow/react": "^12.4.4",
-    "reactflow": "^11.11.4"
   }
 }

@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
 import { env } from 'process';
 import { lingui } from "@lingui/vite-plugin";
+// @ts-ignore
+// import {tailwindcss} from "@tailwindcss/vite";
 
 
 let WEBGAL_PORT = 3000; // default port
@@ -18,6 +20,7 @@ export default defineConfig({
     },
   }),
   lingui()
+  // tailwindcss()
   ],
   resolve: {
     alias: {

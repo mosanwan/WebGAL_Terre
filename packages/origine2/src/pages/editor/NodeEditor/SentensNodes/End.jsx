@@ -2,10 +2,12 @@ import React, {memo} from "react";
 import Intro from "@/pages/editor/GraphicalEditor/SentenceEditor/Intro";
 import {Handle, Position} from "@xyflow/react";
 import OrgComponent from "@/pages/editor/GraphicalEditor/SentenceEditor/End";
+import MyNodeToolbar from "@/pages/editor/NodeEditor/SentensNodes/MyNodeToolbar";
 export default memo(({data})=>{
   return(
     <div className="IntroContainer">
       <h2>结束游戏</h2>
+      <MyNodeToolbar data={data}/>
       <OrgComponent VerticalMode={true} sentence={data.sentence} onSubmit={data.onSubmit} index={data.index}/>
       <Handle type="target"
         position={Position.Left}

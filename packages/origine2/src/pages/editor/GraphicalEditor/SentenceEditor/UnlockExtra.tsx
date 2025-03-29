@@ -28,7 +28,7 @@ export default function UnlockExtra(props: ISentenceEditorProps) {
   };
 
   return <div className={styles.sentenceEditorContent}>
-    <CommonTips text={t`提示：在编辑结束后，如果发现有失效的鉴赏 CG/BGM ，在 WebGAL 游戏界面的选项中选择清除全部数据以清空。`}/>
+
     <div className={props.VerticalMode?"":styles.editItem}>
       <CommonOptions key="1" title={t`解锁鉴赏类型`}>
         <WheelDropdown
