@@ -576,6 +576,10 @@ msgid "右对齐"
 msgstr "右揃え"
 
 #: src/pages/editor/NodeEditor/SentensNodes/MyNodeToolbar.jsx:11
+msgid "向前插入"
+msgstr ""
+
+#: src/pages/editor/NodeEditor/SentensNodes/MyNodeToolbar.jsx:12
 msgid "向后插入"
 msgstr ""
 
@@ -876,6 +880,7 @@ msgid "打开文件夹"
 msgstr "フォルダーを開く"
 
 #: src/pages/editor/GraphicalEditor/GraphicalEditor.tsx:213
+#: src/pages/editor/NodeEditor/SentensNodes/MyNodeToolbar.jsx:13
 msgid "执行到此句"
 msgstr "この文まで実行"
 

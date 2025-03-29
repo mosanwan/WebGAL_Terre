@@ -184,6 +184,10 @@ function NodeEditor(props) {
     showSentence.set(showSentenceList);
     updateScene();
   }
+  function syncToIndex(index) {
+    const targetValue = sceneText.value.split("\n")[index];
+    WsUtil.sendSyncCommand(props.targetPath, index + 1, targetValue,true);
+  }
   const currentSelectedNodeIndex = useValue(0);
   function insertNodeAfter(index){
     setIsAddNewSentenceOpen(true);
@@ -226,6 +230,9 @@ function NodeEditor(props) {
             },
             onInsertAfter: (index)=>{
               insertNodeAfter(index-1);
+            },
+            onExec: (index)=>{
+              syncToIndex(index);
             },
             index: i+1,
             VerticalMode:true
