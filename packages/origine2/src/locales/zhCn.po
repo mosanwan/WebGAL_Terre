@@ -1434,7 +1434,7 @@ msgstr "特殊演出"
 msgid "百分比。 0-100 有效"
 msgstr "百分比。 0-100 有效"
 
-#: src/pages/editor/MainArea/EditArea.tsx:56
+#: src/pages/editor/MainArea/EditArea.tsx:57
 msgid "目前没有打开任何文件"
 msgstr "目前没有打开任何文件"
 
@@ -1746,7 +1746,7 @@ msgstr "设置转场效果"
 msgid "该指令没有被识别，请打开脚本编辑模式以手动编辑"
 msgstr "该指令没有被识别，请打开脚本编辑模式以手动编辑"
 
-#: src/pages/editor/MainArea/EditArea.tsx:42
+#: src/pages/editor/MainArea/EditArea.tsx:43
 msgid "该文件类型不支持预览"
 msgstr "该文件类型不支持预览"
 

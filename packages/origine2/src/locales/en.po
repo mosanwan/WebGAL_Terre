@@ -1414,7 +1414,7 @@ msgstr "Special performance"
 msgid "百分比。 0-100 有效"
 msgstr "Percentage. 0-100 valid"
 
-#: src/pages/editor/MainArea/EditArea.tsx:56
+#: src/pages/editor/MainArea/EditArea.tsx:57
 msgid "目前没有打开任何文件"
 msgstr "No file currently open"
 
@@ -1726,7 +1726,7 @@ msgstr "Set transition effect"
 msgid "该指令没有被识别，请打开脚本编辑模式以手动编辑"
 msgstr "This command is not recognized, please open script editing mode to edit manually"
 
-#: src/pages/editor/MainArea/EditArea.tsx:42
+#: src/pages/editor/MainArea/EditArea.tsx:43
 msgid "该文件类型不支持预览"
 msgstr "This file type does not support preview"
 

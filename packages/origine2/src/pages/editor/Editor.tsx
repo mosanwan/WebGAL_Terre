@@ -4,6 +4,7 @@ import EditorSideBar from "./EditorSidebar/EditorSidebar";
 import MainArea from "./MainArea/MainArea";
 import useEditorStore from "@/store/useEditorStore";
 import { useGameEditorContext } from "@/store/useGameEditorStore";
+import MovieSectionEditorWithProvider from "@/pages/editor/NodeEditor/MovieSectionEditor";
 
 export default function Editor() {
   const isAutoHideToolbar = useEditorStore.use.isAutoHideToolbar();

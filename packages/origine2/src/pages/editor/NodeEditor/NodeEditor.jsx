@@ -244,7 +244,9 @@ function NodeEditor(props) {
           type: nodeType
         };
         setNodes((nds) => nds.concat(newNode));
-        NodeX += NodeWidth;
+        if (typeof NodeWidth === "number") {
+          NodeX += NodeWidth;
+        }
 
         if (i>0){
           const newEdge = {
@@ -325,7 +327,7 @@ function NodeEditor(props) {
   );
   // const DismissIcon = bundleIcon(Dismiss24Filled, Dismiss24Regular);
   return (
-    <div style={{height: '100%'}}>
+    <div style={{height: '10%'}}>
       <ReactFlow
         ref={ref}
         nodes={nodes}
